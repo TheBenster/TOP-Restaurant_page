@@ -1,0 +1,22 @@
+{
+  "name": "restaurant_page",
+  "version": "1.0.0",
+  "description": "Restaurant page for The Odin Project.",
+  "main": "script.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TheBenster/TOP-Restaurant_page.git"
+  },
+  "keywords": [
+    "TOP"
+  ],
+  "author": "Ben Beaver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheBenster/TOP-Restaurant_page/issues"
+  },
+  "homepage": "https://github.com/TheBenster/TOP-Restaurant_page#readme"
+}
