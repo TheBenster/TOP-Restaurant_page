@@ -4,7 +4,8 @@
   "description": "Restaurant page for The Odin Project.",
   "main": "script.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,12 @@
   "bugs": {
     "url": "https://github.com/TheBenster/TOP-Restaurant_page/issues"
   },
-  "homepage": "https://github.com/TheBenster/TOP-Restaurant_page#readme"
+  "homepage": "https://github.com/TheBenster/TOP-Restaurant_page#readme",
+  "devDependencies": {
+    "css-loader": "^6.8.1",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
 }
