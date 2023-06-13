@@ -94,4 +94,23 @@ img{
     width: 100vw;
     height:80vh;
     background-color: #212121;
+    display:flex;
+    justify-content: center;
+}
+
+.hours-div {
+    text-align: center;
+    padding-top: 15px;
+    gap: 5px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 1.24rem;
+    flex-direction: column;
+    margin-top: 25px; 
+    display: flex;
+    width: 25vw;
+    height: 25vh;
+    border: white 1px solid;
+    border-radius: 15px;
 }

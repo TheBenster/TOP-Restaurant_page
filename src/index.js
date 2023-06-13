@@ -62,7 +62,25 @@ function component(){
 
     const homeHero = document.createElement('div')
     homeHero.classList.add('homeHero');
+    const hoursDiv = document.createElement('div');
+    hoursDiv.classList.add('hours-div')
+
+    const hour = document.createElement('div')
+    hour.innerHTML= "<b>Monday-Thursday</b><br/>9am-8pm<br/><b>Friday-Saturday</b><br/>7am-10pm<br/><b>Sunday</b><br/>12pm-6pm"
+
+    const hourheader = document.createElement('div')
+    hourheader.innerHTML = "<b>Hours</b>"
+
+
+
+    hoursDiv.appendChild(hourheader)
+    hoursDiv.appendChild(hour)
+
+    homeHero.appendChild(hoursDiv)
+    
     content.appendChild(homeHero)
+
+
 
     return content
 }
