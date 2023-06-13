@@ -22,6 +22,7 @@
   "homepage": "https://github.com/TheBenster/TOP-Restaurant_page#readme",
   "devDependencies": {
     "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
