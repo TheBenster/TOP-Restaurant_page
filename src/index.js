@@ -16,6 +16,7 @@ function component(){
     restName.textContent = "Cracker Jack's Sea Shack";
 
     home.classList.add('guides')
+    home.id = 'current'
     menu.classList.add('guides')
     contact.classList.add('guides')
 
@@ -71,12 +72,19 @@ function component(){
     const hourheader = document.createElement('div')
     hourheader.innerHTML = "<b>Hours</b>"
 
+    const locationDiv = document.createElement('div');
+    locationDiv.classList.add('location')
+    locationDiv.innerHTML = "<b>Location</b>"
 
-
+    const locationTxt = document.createElement('div')
+    locationTxt.textContent = "123 Random Address St"
+    locationDiv.appendChild(locationTxt)
+    
     hoursDiv.appendChild(hourheader)
     hoursDiv.appendChild(hour)
 
     homeHero.appendChild(hoursDiv)
+    homeHero.appendChild(locationDiv)
     
     content.appendChild(homeHero)
 

@@ -31,6 +31,11 @@ body {
     border: 1px #212121 solid;
     cursor: pointer;
 }
+#current{
+    background-color: white;
+    color:#212121;
+    border-radius: 1px #212121 solid;
+}
 .head2{
     align-items: end;
     justify-content: space-around;
@@ -92,10 +97,12 @@ img{
 
 .homeHero{
     width: 100vw;
-    height:80vh;
+    height:55vh;
     background-color: #212121;
     display:flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
 }
 
 .hours-div {
@@ -113,4 +120,17 @@ img{
     height: 25vh;
     border: white 1px solid;
     border-radius: 15px;
+}
+
+.location{
+    border: white 1px solid;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    width: 25vw;
+    height: 15vh;
+    border-radius: 15px;
+    color: white;
 }
