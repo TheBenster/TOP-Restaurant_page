@@ -1,19 +1,7 @@
-import restaurant from './restaurant.jpg';
-import _ from 'lodash'
-import './style.css';
-import Menu from './menu'
-let currentDisplay = 'home';
-import Header from './Header.js'
-const content = document.querySelector('#content')
-// import displayMenu from './menu'
-
-
-
 export default function HomeContent(){
     const content = document.querySelector('#content')
     const element = document.createElement('div');
 
-    
     // pic after header
     const pic = new Image();
     pic.classList.add('pic')
@@ -64,23 +52,5 @@ export default function HomeContent(){
     homeHero.appendChild(locationDiv)
     
     content.appendChild(homeHero)
-
-
-
-    return content
+     return content
 }
-function renderContent(){
-    
-    content.innerHTML = ''
-
-    if (currentDisplay === 'home'){
-        content.appendChild(HomeContent());
-    }else if (currentDisplay === 'menu'){
-        content.appendChild(MenuContent())
-    }
-}
-
-
-
-Header();
-renderContent()
