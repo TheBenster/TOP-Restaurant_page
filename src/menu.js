@@ -1,14 +1,13 @@
-function Menu(){
-    const content = document.querySelector('#content')
-    body.textContent = 'Test'
-    const body = document.createElement('div')
-    
-    content.appendChild(body)
-    return content
+function Menu() {
+  const menuContent = document.createElement("div");
+  menuContent.textContent = "Test";
+
+  return menuContent;
 }
 
-export default function displayMenu(){
-    menu.id = 'current'
-    alert('yo')
-    // return document.body.appendChild(Menu())
+export default function displayMenu() {
+  const content = document.querySelector("#content");
+  content.textContent = "";
+  content.append(menuContent);
+  menu.id = "current";
 }

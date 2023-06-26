@@ -1,136 +1,134 @@
 body {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: white;
-    color: #212121;
-    margin: 0;
-    padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background-color: white;
+  color: #212121;
+  margin: 0;
+  padding: 0;
 }
-.head1{
-    width: 25%;
-    padding-left: 20px;
+.head1 {
+  width: 25%;
+  padding-left: 20px;
 }
 .guides {
-    display:flex;
-    justify-content: center;
-    border: 1px solid rgb(255, 255, 255);
-    width: 25%;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(255, 255, 255);
+  width: 25%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
-.head1, .head2, .head3{ 
-    background-color: #212121;
-    color: white;
-    display: flex;
-    align-items: center;
-    font-size: 1.2rem;
-    font-weight: 600;
+.head1,
+.head2,
+.head3 {
+  background-color: #212121;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 600;
 }
-.guides:hover{
-    background-color: white;
-    color: #212121;
-    border: 1px #212121 solid;
-    cursor: pointer;
+.guides:hover {
+  background-color: white;
+  color: #212121;
+  cursor: pointer;
 }
-#current{
-    background-color: white;
-    color:#212121;
-    border-radius: 1px #212121 solid;
+#current {
+  background-color: white;
+  color: #212121;
+  border-radius: 1px #212121 solid;
 }
-.head2{
-    align-items: end;
-    justify-content: space-around;
-    align-content: space-around;
-    width: 50%;
-    flex-grow: 2;
+.head2 {
+  align-items: end;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 50%;
+  flex-grow: 2;
 }
-.head3{
-    width: 25%;
-    flex-grow: 1;
-    padding-right: 20px;
-    justify-content: end;
+.head3 {
+  width: 25%;
+  flex-grow: 1;
+  padding-right: 20px;
+  justify-content: end;
 }
-img{
-    width: 100%;
-    height: 50vh;
-    background: url('restaurant.jpg');
+img {
+  width: 100%;
+  height: 50vh;
+  background: url("restaurant.jpg");
+}
+.header {
+  display: flex;
+  flex-grow: 1 2 1;
+  height: 10vh;
+}
+.blur {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  height: 100vh;
+  width: 50%;
+}
+.pic {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-}
-.header{
-    display: flex;
-    flex-grow: 1 2 1;
-    box-shadow: 0 4px 5px #212121;
-    height: 10vh;
-}
-.blur{
-    background: rgba(255, 255, 255, 0.2);
-    backdrop-filter: blur(8px); 
-    height: 100vh;
-	width: 50%;
-}
-.pic{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.mission{ 
-    width: 100vw;
-    height: 75vh;
-    display: flex;
-
+.mission {
+  width: 100vw;
+  height: 75vh;
+  display: flex;
 }
 
 .mission-item {
-    font-size: 2rem;
-    text-align: center;
-    display:flex;
-    align-items: center;
-    justify-content: center;
-    padding: 50px;
-    width: 50%;
-    
+  font-size: 2rem;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  width: 50%;
 }
-.mission-item2{
-    padding-left: 70px;
-    padding-right: 70px;
+.mission-item2 {
+  padding-left: 70px;
+  padding-right: 70px;
 }
 
-.homeHero{
-    width: 100vw;
-    height:55vh;
-    background-color: #212121;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+.homeHero {
+  width: 100vw;
+  height: 55vh;
+  background-color: #212121;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 .hours-div {
-    text-align: center;
-    padding-top: 15px;
-    gap: 5px;
-    color: white;
-    display: flex;
-    align-items: center;
-    font-size: 1.24rem;
-    flex-direction: column;
-    margin-top: 25px; 
-    display: flex;
-    width: 25vw;
-    height: 25vh;
-    border: white 1px solid;
-    border-radius: 15px;
+  text-align: center;
+  padding-top: 15px;
+  gap: 5px;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 1.24rem;
+  flex-direction: column;
+  margin-top: 25px;
+  display: flex;
+  width: 25vw;
+  height: 25vh;
+  border: white 1px solid;
+  border-radius: 15px;
 }
 
-.location{
-    border: white 1px solid;
-    display:flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: center;
-    text-align: center;
-    width: 25vw;
-    height: 15vh;
-    border-radius: 15px;
-    color: white;
+.location {
+  border: white 1px solid;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  text-align: center;
+  width: 25vw;
+  height: 15vh;
+  border-radius: 15px;
+  color: white;
 }
